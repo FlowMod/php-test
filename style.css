@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+#navBar {
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#navBar li {
+  display: inline;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+#navBar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.info {
+  margin-top: 40px;
+  font-family: "Roboto";
+  color: white;
+  text-align: center;
+}
+
+.img {
+  margin-top: 20px;
+  z-index: -1;
+}
+
+#user-panel {
+  float: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
